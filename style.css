@@ -1,0 +1,136 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  background: linear-gradient(to right, #9e2ed2, #8e00cf);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ol,
+ul {
+  list-style-type: none;
+}
+
+header {
+  max-width: 100%;
+  max-height: 25vh;
+  display: flex;
+}
+header .container {
+  padding: 10px 20px;
+  max-width: 20%;
+}
+header .header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .header__logo {
+  display: flex;
+  gap: 20px;
+}
+header .navbar {
+  width: 100%;
+  display: flex;
+  padding-left: 25rem;
+}
+header .nav__list {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  list-style: none;
+}
+header .nav__list .list__item {
+  font-family: sans-serif;
+  font-size: 1.2rem;
+}
+
+main {
+  max-width: 100%;
+  max-height: auto;
+}
+main .hero-page {
+  width: 100%;
+  height: 100vh;
+}
+main .hero-page .row {
+  display: flex;
+}
+main .hero-page .row .col .col_text .text_h1 {
+  padding: 5rem 3rem;
+  padding-bottom: 2rem;
+  font-size: 2.6rem;
+  width: 100%;
+  font-family: sans-serif;
+}
+main .hero-page .row .col .col_text .text_p {
+  padding: 0 3rem;
+  font-family: sans-serif;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  line-height: 30px;
+}
+main .hero-page .row .col .col_text .btn_zakaz {
+  margin: 5rem 3rem;
+  padding: 1rem 3rem;
+  color: white;
+  font-family: sans-serif;
+  background: black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px black;
+}
+main .hero-page .row .col .img-hero {
+  padding-right: 5rem;
+  padding-top: 3rem;
+}
+main .card_box .img_card {
+  display: flex;
+  justify-content: space-around;
+}
+main .card_box .img_card img {
+  display: flex;
+  justify-content: center;
+}
+main .card_box .img_krasov {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -15rem;
+}
+main .card_box .arrow_icons {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  padding-left: 5rem;
+  margin-top: -1rem;
+}
+main .card_box .texts {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  margin-top: -12rem;
+}
+
+/*# sourceMappingURL=style.css.map */
